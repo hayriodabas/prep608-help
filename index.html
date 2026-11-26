@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>608 Prep — Support &amp; Field Guide Notes</title>
+<link rel="canonical" href="https://hayriodabas.github.io/prep608-help/help.html">
+<style>
+:root {
+  color-scheme: light dark;
+  --sheet: #f4f4f1;
+  --panel: #ffffff;
+  --sunken: #ececea;
+  --line: #d6d6d0;
+  --ink: #16181b;
+  --ink-2: #52565c;
+  --ink-3: #6c7178;
+  --safety: #e8641b;
+  --safety-text: #bd4a0d;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sheet: #111315;
+    --panel: #1a1d21;
+    --sunken: #22262b;
+    --line: #30353c;
+    --ink: #f1f2ee;
+    --ink-2: #adb2b8;
+    --ink-3: #8c929a;
+    --safety: #f07633;
+    --safety-text: #ff9457;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--sheet);
+  color: var(--ink);
+  font: 16px/1.62 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.band {
+  height: 6px;
+  background: var(--ink);
+  border-bottom: 3px solid var(--safety);
+}
+.sheet {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+.masthead {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.masthead img {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+.stencil {
+  font: 600 12px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--safety-text);
+}
+h1 {
+  margin: 4px 0 2px;
+  font-size: 30px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+.lede {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 16px;
+}
+nav.strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  padding: 12px 0 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+a {
+  color: var(--safety-text);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+h2 {
+  margin: 30px 0 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+h3 {
+  margin: 20px 0 6px;
+  font-size: 16.5px;
+}
+p, ul {
+  margin: 0 0 14px;
+}
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 6px;
+}
+.callout {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--safety);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 16px 0 20px;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.meta {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font: 500 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--ink-3);
+}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<main class="sheet">
+  <header class="masthead">
+    <img src="assets/icon-128.png" alt="608 Prep icon" width="60" height="60">
+    <div>
+      <div class="stencil">&sect;608 &middot; EPA Section 608 Study App</div>
+      <h1>608 Prep</h1>
+      <p class="lede">Support, study notes, privacy summary and legal notices</p>
+    </div>
+  </header>
+
+  <nav class="strip" aria-label="Page sections">
+    <a href="#support">Support</a>
+    <a href="#questions">Questions</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="#legal">Legal</a>
+  </nav>
+
+  <section class="callout">
+    <p><strong>What 608 Prep covers.</strong> Practice for the U.S. EPA Section 608 technician certification exam across Core, Type I, Type II, Type III and Universal. Every question cites the federal rule paragraph it rests on (40 CFR Parts 82 and 84, 49 CFR 173 or an EPA guidance page). For 482 of 521 questions the cited paragraph opens offline inside the app; the remaining 39 open the referenced EPA page or appendix table in the in-app browser.</p>
+  </section>
+
+  <p>The Library holds twenty regulation sections stored inside the app, searchable offline, with each paragraph linked to the questions that cite it. The Tools tab applies the rule language to your own numbers: leak rate (both methods of 40 CFR 82.152, compared against the 10, 20 and 30 percent thresholds of 82.157 with repair dates), required evacuation level (Table 1 of 40 CFR 82.156 and small-appliance rules) and saturation pressure by temperature for 19 refrigerants. All tools are study aids, not compliance advice.</p>
+
+  <h2 id="support">Support</h2>
+  <p>Questions, technical issues and question corrections: <a href="mailto:support@klarwerk.app">support@klarwerk.app</a>. Replies go out within two business days.</p>
+  <p><strong>Reporting a question.</strong> Under any answered question, tap <strong>Report a mistake in this question</strong>. Your mail app opens with the question identifier and bank version filled in. Verified fixes are listed in the release notes.</p>
+
+  <h2 id="questions">Questions</h2>
+
+  <h3>What is free and what comes with Full Access?</h3>
+  <p>Free without buying: the entire 20-section Rule book, all three Tools, the glossary, key tables and HFC field notes, 40 Core sample questions across every Core topic, 5 sample questions per Type and one 25-question Core simulation. <strong>Full Access</strong> is a single one-time payment that unlocks all 521 questions, unlimited simulations across Core, Type I, Type II, Type III and the 100-question Universal run, weak-topic tracking across the full bank and future bank updates shipped with the app. There is no subscription, trial or advertising. Tap <strong>Restore Full Access</strong> in Settings or on the Full Access screen to restore on another device using the same Apple Account.</p>
+
+  <h3>Is 18 of 25 an official pass mark?</h3>
+  <p>No. 18 of 25 (70 percent) is the app&rsquo;s own study target. Official passing requirements are determined by the EPA-approved certifying organization administering your exam; 608 Prep reports each section score separately.</p>
+
+  <h3>I closed the app mid-simulation.</h3>
+  <p>Answers are stored as soon as you select them. Reopen 608 Prep and choose <strong>Resume your simulation</strong> on the Study tab to pick up on the same question.</p>
+
+  <h3>How do daily sessions and reminders work?</h3>
+  <p>Study today selects 20 questions, prioritizing weak topics first, then due review items, then unseen questions. Open <strong>Plan</strong> to set a target exam date, daily volume (10 to 40 questions) and an optional local reminder notification. iOS requests notification permission only when you enable the reminder.</p>
+
+  <h3>Something in a question looks inaccurate.</h3>
+  <p>Tap the citation plate below the explanation to inspect the quoted rule paragraph directly. If you spot a discrepancy, use <strong>Report a mistake in this question</strong>. All questions were drafted for 608 Prep and verified against the cited text by the developer&rsquo;s checks, and have not yet been audited by a certified HVAC instructor.</p>
+
+  <h2 id="privacy">Privacy</h2>
+  <p>Read the full <a href="privacy.html">608 Prep Privacy Policy</a>. Summary:</p>
+  <ul>
+    <li><strong>No data collected.</strong> No accounts, no third-party analytics, no advertising and no crash-reporting SDKs.</li>
+    <li>Study progress stays on your iPhone and, when iCloud is enabled, in your private Apple CloudKit database so your own devices stay in sync. The developer cannot access it.</li>
+    <li>No app backend exists. Online connections occur only for App Store purchases/restores, your private iCloud database, or when you tap an external eCFR, EPA or policy link.</li>
+    <li>Mistake reports and support emails compose a draft in your mail app; nothing leaves your device until you send it.</li>
+  </ul>
+  <p>Privacy contact: <a href="mailto:support@klarwerk.app">support@klarwerk.app</a>.</p>
+
+  <h2 id="legal">Legal</h2>
+  <p>608 Prep is independent and is not affiliated with or endorsed by the U.S. Environmental Protection Agency or any EPA-approved certifying organization. Technician certification requires passing an exam proctored by an approved program under its own rules. 608 Prep issues no certificates and uses no live exam questions. Regulation text is reproduced from the public-domain U.S. Code of Federal Regulations (eCFR) as of the date shown in Settings; verify current regulatory language before making field compliance decisions.</p>
+
+  <p class="meta">608 Prep &middot; Bundle app.klarwerk.prep608 &middot; Updated 26 November 2026</p>
+</main>
+</body>
+</html>
